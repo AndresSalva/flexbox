@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    height: 100px;
+    background-color: darkred;
+}
+.main{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+}
+.sidenav{
+    flex: 80px 1 0;
+    background-color: yellow;
+}
+.main-content{
+    flex: 900px 4 0;
+    background-color: purple;
+}
+.sidebar{
+    flex: 80px 1 0;
+    background-color: yellow;
+}
+.footer{
+    display: flex;
+    height: 100px;
+    background-color: darkred;
+}

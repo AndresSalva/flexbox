@@ -1,52 +1,63 @@
 .contenedor{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    height: 700px;
-    background-color: rgba(0,0, 0, 0.5);
+    justify-content: flex-start;
+    flex-wrap: no-wrap;
+    align-items: flex-start;
+    /* height: 700px;
+    background-color: rgba(0,0, 0, 0.5); */
     align-content: center;
 }
 .caja1{
-    width: 500px;
-    height: 80px;
+    /* flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    flex: 900px 1 1;
+    /* width: 500px; */
+    /* height: 80px; */
     font-size: 85px;
     color: white;
     background-color: blue;
 }
 .caja2{
-    width: 500px;
-    height: 80px;
+    flex-basis: 900px;
+    /* width: 500px; */
+    /* height: 80px; */
+    flex-grow: 2;
+    flex-shrink: 2;
     font-size: 85px;
     color: white;
     background-color: red;
 
 }
 .caja3{
-    width: 500px;
-    height: 80px;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* width: 500px; */
+    /* height: 80px; */
     font-size: 85px;
     color: white;
     background-color: orange;
 }
 .caja4{
     width: 500px;
-    height: 80px;
+    /* height: 80px; */
     font-size: 85px;
     color: white;
     background-color: purple;
+    /* order: -1; */
 }
 .caja5{
     width: 500px;
-    height: 80px;
+    /* height: 80px; */
     font-size: 85px;
     color: white;
     background-color: darkcyan;
 }
 .caja6{
     width: 500px;
-    height: 80px;
+    /* height: 80px; */
     font-size: 85px;
     color: white;
     background-color: forestgreen;
